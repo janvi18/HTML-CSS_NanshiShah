@@ -1,0 +1,19 @@
+h1 {
+    width: 500px;
+    color: rebeccapurple;
+    background-color: bisque;
+    font-family: cursive;
+    box-sizing: border-box;
+    border: 2px solid black;
+    text-align: center;
+    margin: auto;
+}
+
+h3 {
+    width: 500px;
+    height: 100px;
+    margin: auto;
+    background-color: turquoise;
+    box-sizing: border-box;
+    border: 2px solid black;
+}

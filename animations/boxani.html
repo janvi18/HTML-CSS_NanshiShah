@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>
+            Web-Animation
+        </title>
+        <style>
+            body
+            {
+                margin: 0;
+                background-color: lightblue;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            * {
+                box-sizing: border-box;
+            }
+            .box {
+                width: 200px;
+                height: 200px;
+                background-color: cornflowerblue;
+                padding: 20px;
+                animation-name: ani;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+            }
+            .main {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+            @keyframes ani {
+                0% {
+                    background-color: crimson;
+                }
+                50% {
+                    border-radius: 50%;
+                    background-color: darkgreen;
+                }
+                100% {
+                    background-color: darkgoldenrod;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main">
+            <div class="box"></div>
+        </div>
+    </body>
+</html>

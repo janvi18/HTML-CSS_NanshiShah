@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>
+            Box Animation
+        </title>
+        <style>
+            body{
+                margin: 0;
+                background: lightblue;
+            }
+            *{
+                box-sizing: border-box;
+            }
+            .main{
+                width: 100%;
+                height: 100px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .box{
+                width: 100px;
+                height: 100px;
+                background: red;
+                animation: ani 2s infinite;
+            }
+            @keyframes ani{
+                0%{
+                    transform: translateX(0px);
+                }
+                50%{
+                    transform: translateX(200px);
+                }
+                100%{
+                    transform: translateX(0px);
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main">
+            <div class="box"></div>
+        </div>
+    </body>
+</html>

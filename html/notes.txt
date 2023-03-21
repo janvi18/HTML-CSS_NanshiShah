@@ -1,0 +1,41 @@
+HTML -- HyperText Markup Language
+Uses -- To create web pages and web applications.
+
+
+Extension -- filename .html or .htm
+Synatx : 
+
+<html>
+    <head>
+        <title> ......... </title> 
+    </head>
+    <body>
+        // code
+    </body>
+</html>
+
+Tags :-
+<p> --> paragraph
+<b> --> to bold the Text 
+<i> --> to italic the Text
+<u> --> to underline the Text
+<mark> --> to highlight the Text
+<hr> --> horizontal row
+<br> --> break the row [ to the next line ]
+<ol> --> ordered list
+<li> --> list items
+<ul> --> unordered list
+<br> --> break row [ next line ]
+
+HTML Formatting Elements:
+
+<strong> - Important text [ same as bold tag ]
+<em> - Emphasized text [ same as italic tag ]
+<small> - Smaller text
+<big> - Bigger text 
+<del> - Deleted text
+<ins> - Inserted text [ same as underline tag ]
+<sub> - Subscript text
+<sup> - Superscript text
+
+
